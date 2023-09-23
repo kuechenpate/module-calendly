@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async="true" src_type="url" />
+    </head>
+    <referenceContainer name="content">
+        <block class="Kuechenpate\Calendly\Block\Display" name="calendly_display" template="Kuechenpate_Calendly::calendlyinline.phtml" />
+    </referenceContainer>
+</page>
